@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0;
+  }
+}
